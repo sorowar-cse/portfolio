@@ -27,9 +27,9 @@
 
 .section-description {
     color: #757575;
-     text-align: center;
-   font-size: 18px;
-    
+    text-align: center;
+    font-size: 18px;
+
 }
 
 /* Nav related styles here  */
@@ -65,9 +65,9 @@ nav a {
 /* header related styles here */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     /* width: 100vw; */
 }
 
@@ -79,6 +79,7 @@ nav a {
 }
 
 .banner-content {
+    margin-left: 75px;
     max-width: 800px;
 }
 
@@ -215,11 +216,12 @@ footer {
     width: 50%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
